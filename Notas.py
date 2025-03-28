@@ -1,6 +1,6 @@
 #Entrada
 while True:
-    N1= float (input("Digite a nota 1 Bim: "))
+    N1= float (input("Digite a nota 1 Bim: ")) #esse laço se repete caso o usuario digite valor maior que 10 e menor que 0
     if N1 <= 10 and N1 >= 0:
         break
 while True:
